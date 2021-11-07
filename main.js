@@ -52,4 +52,7 @@ var last_position_of_x, last_position_of_y;
         last_position_of_x = current_position_of_mouse_x; 
         last_position_of_y = current_position_of_mouse_y;
     }
+    function clear () {
+      ctx.clearRect(0,0,800,600)
+      }
 
